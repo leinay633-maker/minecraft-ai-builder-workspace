@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "minecraft-builder": {
+      "command": "pwsh",
+      "args": [
+        "-NoLogo",
+        "-File",
+        "REPLACE_WITH_WORKSPACE\\scripts\\start-minecraft-bot.ps1",
+        "-WorkspaceRoot",
+        "REPLACE_WITH_WORKSPACE",
+        "-InstanceRoot",
+        "REPLACE_WITH_MINECRAFT_INSTANCE",
+        "-ServerHost",
+        "localhost",
+        "-Username",
+        "CodexBuilder"
+      ]
+    }
+  }
+}

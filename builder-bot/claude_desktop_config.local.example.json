@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "minecraft-local-clone": {
+      "command": "node",
+      "args": [
+        "C:/path/to/minecraft-mcp-server-yuniko/dist/main.js",
+        "--host",
+        "localhost",
+        "--port",
+        "25565",
+        "--username",
+        "CodexCliBot"
+      ]
+    }
+  }
+}

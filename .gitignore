@@ -1,0 +1,19 @@
+# Local MCP client config with machine-specific absolute paths
+.mcp.json
+
+# Workspace outputs
+logs/
+jobs/*.json
+blueprints/generated/*.json
+!jobs/.gitkeep
+!blueprints/generated/.gitkeep
+
+# Builder package outputs
+builder-bot/dist/
+builder-bot/node_modules/
+
+# IDE and OS clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
